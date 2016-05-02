@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F8FF"
+    >
+
+<TextView
+
+
+    android:layout_marginTop="70dp"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:text="让会议变得简单"
+    android:textSize="35sp"
+    android:layout_gravity="center"
+
+    style="@android:style/TextAppearance.DialogWindowTitle"
+    android:textColor="#f9acac" />
+<LinearLayout
+    android:gravity="center"
+    android:layout_marginTop="60dp"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:orientation="horizontal"
+    >
+    <ImageButton
+        android:id="@+id/sign"
+        android:layout_margin="3dp"
+        android:src="@drawable/touch"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        />
+    <ImageButton
+        android:id="@+id/contacts"
+        android:layout_margin="3dp"
+        android:src="@drawable/lianxiren"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+    />
+    <ImageButton
+        android:id="@+id/date"
+        android:layout_margin="3dp"
+        android:src="@drawable/date"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        />
+    <ImageButton
+        android:id="@+id/tolist"
+        android:layout_margin="3dp"
+        android:src="@drawable/todo"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        />
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:layout_marginLeft="40dp"
+        android:layout_height="fill_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="签到"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:layout_marginLeft="25dp"
+        android:layout_height="fill_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="联系人"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_height="fill_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="日程"
+        android:textSize="25sp"
+        />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="25dp"
+        android:layout_height="fill_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="待办事项"
+        android:textSize="25sp"
+        />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

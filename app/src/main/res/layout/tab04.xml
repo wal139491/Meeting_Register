@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F8FF"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        >
+        <ImageView
+            android:id="@+id/img_Touxiang"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/touxiang"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="8dp"
+            android:id="@+id/linearLayout">
+
+        </LinearLayout>
+
+
+        <ImageButton
+            android:id="@+id/Turn_Qr"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/code"
+            android:layout_alignTop="@+id/linearLayout"
+            android:layout_alignParentEnd="true"
+            android:background="#ffffff" />
+
+        <TextView
+            android:id="@+id/ge_xinxi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="周星星"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_above="@+id/ge_id"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/ge_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:text="fanqie1993"
+            android:textColor="#c6c3c3"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_alignBottom="@+id/img_Touxiang"
+            android:layout_alignStart="@+id/ge_xinxi" />
+    </RelativeLayout>
+    <Button
+        android:id="@+id/zhuce"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="注册"
+        android:background="#ffffff"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/btn_info"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="个人信息"
+        android:background="#ffffff"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/btn_file"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="我的文档"
+        android:background="#ffffff"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/btn_setting"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="信息设置"
+        android:background="#ffffff"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/btn_shaomiao"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="管理员扫描"
+        android:background="#ffffff"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="版本更新"
+        android:background="#ffffff"
+        android:layout_margin="5dp"
+        android:textSize="20sp"
+        />
+
+
+
+
+</LinearLayout>
